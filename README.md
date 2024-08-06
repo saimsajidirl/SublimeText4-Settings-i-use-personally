@@ -20,3 +20,12 @@ Terminus settings:
         }
     }
 ]
+
+
+Key bindings:
+[
+    { "keys": ["alt+1"], "command": "terminus_open", "args": { "cwd": "${file_path:${folder}}" } },
+
+    { "keys": ["ctrl+b"], "command": "build" },
+    { "keys": ["ctrl+alt+b"], "command": "cancel_build" }
+]
