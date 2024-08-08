@@ -1,4 +1,4 @@
-Sublime Settings:
+#Sublime-Settings:
 {
 "ignored_packages":
 ["Vintage",],
@@ -10,7 +10,7 @@ Sublime Settings:
 
 
 
-Terminus settings:
+#Terminus-settings:
 [
     {
         "keys": ["alt+1"], 
@@ -22,10 +22,15 @@ Terminus settings:
 ]
 
 
-Key bindings:
+#Key-bindings:
 [
     { "keys": ["alt+1"], "command": "terminus_open", "args": { "cwd": "${file_path:${folder}}" } },
 
     { "keys": ["ctrl+b"], "command": "build" },
     { "keys": ["ctrl+alt+b"], "command": "cancel_build" }
 ]
+
+
+#how-toget-open-with-streamlit
+create folder here
+Computer\HKEY_CLASSES_ROOT\Directory\Background\shell\VSCode
