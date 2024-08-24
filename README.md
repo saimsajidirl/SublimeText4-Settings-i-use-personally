@@ -32,5 +32,8 @@
 
 
 #how-toget-open-with-streamlit
+
 create folder here
 Computer\HKEY_CLASSES_ROOT\Directory\Background\shell\VSCode
+
+Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\background\shell
