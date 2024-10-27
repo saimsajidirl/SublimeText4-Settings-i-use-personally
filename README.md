@@ -34,14 +34,8 @@
     ]
 
 
-# where-to-find-openwithsublime-stuff-to-delete
 
-Computer\HKEY_CLASSES_ROOT\Directory\Background\shell\VSCode
-
-Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\background\shell
-
-
-# bat-file-code-to-add-openwithsublime
+# bat-file-code-to-add-openwithsublime in all context menus
     
     @echo off
     SET st3Path=C:\Program Files\Sublime Text\sublime_text.exe
@@ -63,4 +57,8 @@ Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\background\shell
     pause
 
 
+# where-to-find-openwithsublime-stuff-to-delete in services after adding manually in content menu
 
+Computer\HKEY_CLASSES_ROOT\Directory\Background\shell\VSCode
+
+Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\background\shell
